@@ -38,6 +38,22 @@ WebDriver driver;
 	    password.sendKeys("12345");
 	    login.click();
 	}
+	
+	@When("user pass the invalid username and password")
+	public void user_pass_the_invalid_username_and_password() throws InterruptedException {
+	    // Write code here that turns the phrase above into concrete actions
+	    System.out.println("user pass the invalid username and password");
+	    Thread.sleep(5000);
+	    WebElement username=driver.findElement(By.xpath("//input[@id='name']"));
+	    Thread.sleep(2000);
+	    WebElement password=driver.findElement(By.xpath("//input[@id='password']"));
+	    Thread.sleep(2000);
+	    WebElement login=driver.findElement(By.id("login"));
+	    Thread.sleep(2000);
+	    username.sendKeys("Raghav1234");
+	    password.sendKeys("12344565");
+	    login.click();
+	}
 
 	@Then("Succesfully login to browser application")
 	public void succesfully_login_to_gmail_application() {
