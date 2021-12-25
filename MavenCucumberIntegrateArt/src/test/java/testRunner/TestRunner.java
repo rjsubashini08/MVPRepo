@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 		features="Features",
 		glue={"stepDefinition"},
 		plugin = { "pretty", "json:target/cucumber-reports/Cucumber.json" },
-		tags= {"@script"}
+		tags= {"@script1"}
 		)
 
 public class TestRunner {
