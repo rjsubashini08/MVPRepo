@@ -61,5 +61,12 @@ WebDriver driver;
 	    System.out.println("Succesfully login to gmail application");
 	    driver.findElement(By.xpath("//p[@id='greetings']")).isDisplayed();
 	}
+	
+	@Then("UnSuccesfully login to browser application")
+	public void Unsuccesfully_login_to_gmail_application() {
+	    // Write code here that turns the phrase above into concrete actions
+	    System.out.println("UnSuccesfully login to gmail application");
+	    driver.findElement(By.xpath("//p[@id='greetings']")).isDisplayed();
+	}
 
 }
