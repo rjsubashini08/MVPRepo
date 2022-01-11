@@ -10,8 +10,8 @@ import cucumber.api.junit.Cucumber;
 		features="Features",
 //		features={"Features/Registration.feature","Features/Login.feature"},
 		glue={"stepDefinition"},
-		plugin = { "pretty", "json:target/cucumber-reports/Cucumber.json" },
-		tags= {"@script1"}
+		plugin = { "pretty", "json:target/cucumber-reports/Cucumber.json" }
+
 		)
 
 public class TestRunner {

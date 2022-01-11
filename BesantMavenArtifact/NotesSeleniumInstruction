@@ -1,0 +1,12 @@
+https://jar-download.com/artifacts/org.seleniumhq.selenium/selenium-java?p=2
+
+Steps to Create Maven Selenium Project
+*************************************
+
+1)Create a Maven  project(src/main/java,resources,src/test/java,resources,)
+2)download selenium-java-3.141.59- 21 jar files from this path https://jar-download.com/artifacts/org.seleniumhq.selenium/selenium-java?p=2
+3)Pom.xml(dependency from maven repository)-https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+4)Create a package
+5)Create a class
+6)Download the driver which is compatible to current chrome browser version(System setProperty)
+6)Run the Program
