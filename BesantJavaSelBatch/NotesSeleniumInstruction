@@ -1,0 +1,12 @@
+https://jar-download.com/artifacts/org.seleniumhq.selenium/selenium-java?p=2
+
+Steps to Create Java Selenium Project
+*************************************
+
+1)Create a normal Java project(src&JRE)
+2)download selenium-java-3.141.59- 21 jar files from this path https://jar-download.com/artifacts/org.seleniumhq.selenium/selenium-java?p=2
+3)Right click on the project->BuildPtah->Configure BuildPath->Class Path->external Libraries->Attach all those 21 jar files->Apply and Applyclose
+4)Create a package
+5)Create a class
+6)Download the driver which is compatible to current chrome browser version(System setProperty)
+6)Run the Program

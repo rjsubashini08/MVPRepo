@@ -10,3 +10,7 @@ Steps to Create Maven Selenium Project
 5)Create a class
 6)Download the driver which is compatible to current chrome browser version(System setProperty)
 6)Run the Program
+
+
+***********DRIVER PATH**************
+https://github.com/rjsubashini08/MVPRepo/tree/master/BesantMavenArtifact/src/test/resources/Drivers
